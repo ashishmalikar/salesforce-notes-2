@@ -90,5 +90,46 @@ public interface Car {
 }
 ~~~
 
+#### Abstract Class
+
+- Abstract class can be created with "abstract" keyword.
+- Instance of the abstract class cannot be created.
+- We can have both method declaration as well as defination.
+
+~~~ java 
+public abstract class Phone () {
+
+  void call() {
+    // to-do
+  }
+  abstract void sendMessage();
+}
+~~~ 
+
+### Encapsulation
+
+- Encapsulation is the process of binding objects state and behaviour together in single entity called "Class".
+- Since it wraps fields and methods in class it is sucured from outside access.
+
+## What is Inheritance?
+
+- One class inherites or aquires properties of another class.
+- Inheritance provides code reusability
+
+Inhertince is the process of defining class from already existing class.
+
+
+## What is Polymorphism?
+
+- Polymorphism is the property where object can behave different under different conditions.
+- It can be achieved by method overloading and method overiding.
+
+1. Method Overloading:
+
+Method with same name but different paramaters can be declared. Method to exucute is decided at the compile time.
+
+2. Method Overriding:
+
+In Method overriding, call to the method get decided at run time on the basis of variable pointing the reference.
 
 
